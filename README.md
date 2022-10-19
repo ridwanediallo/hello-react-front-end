@@ -1,38 +1,34 @@
-# Budget app
+# Hello-react-front-end
 
 
-> **Budget app** is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
+> **hello-react-front-end** is about building a application that render a random greeting.
 
 
-## Live Version
-
-- [heroku](https://budgetliv.herokuapp.com/)
-- [video-demo](https://youtu.be/9T7Woh7oXmM)
 ## Built With
 
 - ![](https://img.shields.io/badge/Github-blueviolet)
-- ![](https://img.shields.io/badge/Ruby_On_Rails-red)
 - ![](https://img.shields.io/badge/Bootstrap-blueviolet)
+- ![](https://img.shields.io/badge/React-lightblue)
 
 ### Setup
 Clone the repository and change the directory to blog
 
 ```
-  $ git clone https://github.com/ridwanediallo/Budget-app.git
+  $ git clone https://github.com/ridwanediallo/hello-react-front-end.git
 
-  $ cd Budget-app
+  $ cd hello-react-front-end
 ```
 
 ### Install
 Install all project dependencies by running the command below
 
 ```
-  $ bundle install
+  $ npm install
 ```
 
 ### Run the application
 ```
-  $ bin/rails server
+  $ npm start
 ```
 
 ### Visit the homepage of application
@@ -42,13 +38,9 @@ Install all project dependencies by running the command below
 
 ### Check linter errors
 ```
-  $ rubocop .
+  $  npx eslint .
 ```
 
-### Run tests
-```
-  $ rspec
-```
 ## Author 1
 
 👤 **Ridwan**
@@ -61,22 +53,17 @@ Install all project dependencies by running the command below
 
 If you wish to run the project locally, please do the following:
 
-- Clone the repository to your local machine. - **`git clone git@github.com:ridwanediallo/Budget-app.git`**
+- Clone the repository to your local machine. - **`git clone git@github.com:ridwanediallo/hello-react-front-end.git`**
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ridwanediallo/Budget-app/issues).
+Feel free to check the [issues page](https://github.com/ridwanediallo/hello-react-front-end/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Original design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella)
-- Fellow Micronauts
 
 ## 📝 License
 
