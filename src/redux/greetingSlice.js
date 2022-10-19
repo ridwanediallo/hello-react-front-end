@@ -11,13 +11,7 @@ const greetingSlice = createSlice({
   initialState: [],
 
   extraReducers: {
-    [getGreetings.pending]: () => {
-      console.log('fetching');
-    },
-    [getGreetings.fulfilled]: (action) => {
-      console.log('success');
-      return [action.payload];
-    },
+    [getGreetings.fulfilled]: (state, action) => [action.payload],
   },
 });
 
