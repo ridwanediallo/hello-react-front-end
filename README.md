@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Budget app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+> **Budget app** is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 
-In the project directory, you can run:
 
-### `npm start`
+## Live Version
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [heroku](https://budgetliv.herokuapp.com/)
+- [video-demo](https://youtu.be/9T7Woh7oXmM)
+## Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ![](https://img.shields.io/badge/Github-blueviolet)
+- ![](https://img.shields.io/badge/Ruby_On_Rails-red)
+- ![](https://img.shields.io/badge/Bootstrap-blueviolet)
 
-### `npm test`
+### Setup
+Clone the repository and change the directory to blog
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+  $ git clone https://github.com/ridwanediallo/Budget-app.git
 
-### `npm run build`
+  $ cd Budget-app
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Install
+Install all project dependencies by running the command below
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+  $ bundle install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Run the application
+```
+  $ bin/rails server
+```
 
-### `npm run eject`
+### Visit the homepage of application
+```
+  $ http://localhost:3000/
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Check linter errors
+```
+  $ rubocop .
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Run tests
+```
+  $ rspec
+```
+## Author 1
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+👤 **Ridwan**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- GitHub: [@githubridwan](https://github.com/ridwanediallo)
+- Twitter: [@twitterridwan](https://twitter.com/RidwaneD)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ridwan-diallo)
 
-## Learn More
+## Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you wish to run the project locally, please do the following:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Clone the repository to your local machine. - **`git clone git@github.com:ridwanediallo/Budget-app.git`**
 
-### Code Splitting
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions, issues, and feature requests are welcome!
 
-### Analyzing the Bundle Size
+Feel free to check the [issues page](https://github.com/ridwanediallo/Budget-app/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Show your support
 
-### Making a Progressive Web App
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgments
 
-### Advanced Configuration
+- Original design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella)
+- Fellow Micronauts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📝 License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.
